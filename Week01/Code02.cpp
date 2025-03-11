@@ -34,7 +34,7 @@ void loop()
   Serial.print(distance);
   Serial.println(" cm");
   
-  if (distance < 100)
+  if (distance >= 100)
   {digitalWrite (led_r, HIGH);
    digitalWrite (led_g, LOW);}
   else
