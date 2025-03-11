@@ -1,8 +1,8 @@
 // C++ code
 //
 
-#define TRIG 13 // TRIG ги
-#define ECHO 12 // ECHO ги
+#define TRIG 13 // TRIG Pin
+#define ECHO 12 // ECHO Pin
 
 int led_r = 7;
 int led_g = 8;
