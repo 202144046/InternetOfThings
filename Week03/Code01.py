@@ -2,7 +2,7 @@ import serial
 from influxdb_client import InfluxDBClient
 import time
 
-serial_prot = '/dev/cu/usbserial-120'
+serial_port = '/dev/cu/usbserial-120'
 baud_rate = 9600
 timeout = 2
 
@@ -18,7 +18,7 @@ write_api = client.write_api()
 
 # 시리얼 포트 열기
 try:
-    ser = serial. Serial(serial_port, baud_rate, time = timeout)
+    ser = serial.Serial(serial_port, baud_rate, timeout = timeout)
     print(f"Connected to {serial_port} at {baud_rate} baud")
 except:
     print("Failed to connect to serial port")
@@ -28,7 +28,7 @@ try:
     while True:
         if ser.in_waiting > 0:
             # 아두이노로부터 시리얼 데이터를 읽음
-            lie = ser.realine().decode('utf-8').strip()
+            line = ser.realine().decode('utf-8').strip()
 
             # 데이터가 유효한 경우 InfluxDB에 기록
             if "=" in line:
