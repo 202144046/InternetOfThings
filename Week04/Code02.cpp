@@ -38,11 +38,12 @@ void loop()
   lcd.print("Distance : ");
   lcd.print(distance);
   lcd.println(" cm");
-  delay(1000); // Wait for 1000 millisecond(s)
+  delay(1); // Wait for 1 millisecond(s)
  
   for (int position = 0; position < 16; position++) {
     lcd.scrollDisplayLeft();
-    delay(150);
+    delay(200);
   }
+  lcd.clear();
 }
 
