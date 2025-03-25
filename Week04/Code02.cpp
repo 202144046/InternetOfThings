@@ -35,15 +35,15 @@ void loop()
   lcd.setCursor(16,0);
 
   Serial.println(duration);
-  lcd.print("Distance : ");
-  lcd.print(distance);
-  lcd.println(" cm");
-  delay(1); // Wait for 1 millisecond(s)
- 
+
   for (int position = 0; position < 16; position++) {
-    lcd.scrollDisplayLeft();
+    lcd.setCursor(0, 0);
+    lcd.print("Distance : ");
+    lcd.print(distance);
+    lcd.print("cm");
     delay(200);
   }
+
   lcd.clear();
 }
 
