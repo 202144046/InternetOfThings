@@ -7,7 +7,7 @@ LedToggle::LedToggle(int pin) {
     digitalWrite(_pin, LOW);
 }
 
-void LedTOggle::toggle(){
+void LedToggle::toggle(){
     _state = !_state;
     digitalWrite(_pin, _state ? HIGH : LOW);
 }
