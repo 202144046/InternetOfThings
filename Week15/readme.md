@@ -62,10 +62,7 @@ $ sudo make install
 ```
 $ motelist
 ```
-https://github.com/sonnonet/2024_inhatc/blob/main/temp/1.PNG?raw=true![image](https://github.com/user-attachments/assets/60398bfb-982c-4372-bbe1-1749e2eed9c0)
-
-
-
+![1](https://github.com/user-attachments/assets/99ddde71-d39e-43de-b94b-01c45c466195)
 
 ### 기본 미들웨어 소스코드 다운
 ```
