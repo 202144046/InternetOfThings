@@ -7,9 +7,9 @@
 
 ## 📅 주차 정보
 
-- **주차**: 5주차  
-- **주제**: 아두이노 변수, 제어문, 시리얼 통신 이해
-- **내용**:
+- **주차** : 5주차  
+- **주제** : 아두이노 변수, 제어문, 시리얼 통신 이해
+- **내용** :
   - 사물인터넷 개요 및 구성 요소 이해
   - 아두이노의 변수 선언 방식, 자료형 이해
   - 조건문 (`if`, `switch`), 반복문 (`for`, `while`) 학습
@@ -26,11 +26,11 @@
   - 스마트 홈, 시티, 팩토리, 헬스케어 응용
 
 - **Arduino C++ 문법 실습**
-  - 주요 변수형: `int`, `unsigned long`, `char`, `float`, `bool`, `byte`, `String`
-  - 변수 범위: 전역 vs 지역, `static`, `const`
-  - 조건문: `if`, `else`, `switch`, 삼항 연산자
-  - 반복문: `while`, `do-while`, `for`
-  - 문자열 처리: `char[]`, `char*`, `String`, 관련 메소드(`substring()`, `toCharArray()`, `toInt()` 등)
+  - 주요 변수형 : `int`, `unsigned long`, `char`, `float`, `bool`, `byte`, `String`
+  - 변수 범위 : 전역 vs 지역, `static`, `const`
+  - 조건문 : `if`, `else`, `switch`, 삼항 연산자
+  - 반복문 : `while`, `do-while`, `for`
+  - 문자열 처리 : `char[]`, `char*`, `String`, 관련 메소드(`substring()`, `toCharArray()`, `toInt()` 등)
   - 사용자 정의 함수 및 함수 오버로딩
   - 클래스 및 라이브러리 구조 이해
 
