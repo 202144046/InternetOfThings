@@ -7,9 +7,9 @@
 
 ## 📅 주차 정보
 
-- **주차**: 13주차  
-- **주제**: TinyOS 기반 온습도 센서 모니터링 시스템  
-- **내용**:
+- **주차** : 13주차  
+- **주제** : TinyOS 기반 온습도 센서 모니터링 시스템  
+- **내용**
   - TelosB 센서 노드를 이용한 온습도 수집
   - TinyOS 기반 센서 제어 프로그램 작성
   - InfluxDB + Grafana를 통한 시각화
@@ -29,12 +29,12 @@
 
 ## 🛠️ 컴파일 및 업로드
 
-- TelosB 노드를 위한 컴파일:
+- TelosB 노드를 위한 컴파일
   ```bash
   make telosb
   ```
 
-- 특정 노드 ID(`X`)로 업로드:
+- 특정 노드 ID(`X`)로 업로드
   ```bash
   make telosb install.X
   ```
@@ -52,19 +52,19 @@
 
 ## 📊 InfluxDB + Grafana 설정
 
-- **InfluxDB**: 센서 데이터를 저장하는 시계열 데이터베이스
-  - 주소: `localhost:8086`
-  - DB 이름: `dust`
-  - 사용자: `root`
+- **InfluxDB** : 센서 데이터를 저장하는 시계열 데이터베이스
+  - 주소 : `localhost:8086`
+  - DB 이름 : `dust`
+  - 사용자 : `root`
 
-- **Grafana**: InfluxDB의 센서 데이터를 실시간으로 시각화하는 대시보드 도구
+- **Grafana** : InfluxDB의 센서 데이터를 실시간으로 시각화하는 대시보드 도구
 
 ---
 
 ## 🤖 Telegram Bot 연동
 
 - Python 스크립트로 텔레그램 봇 생성 및 연동
-- 주요 기능:
+- 주요 기능
   - 실시간 센서값 전송
   - 타이머 기반 알림
   - 봇 명령어 응답 처리
