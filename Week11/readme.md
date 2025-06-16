@@ -7,9 +7,9 @@
 
 ## 📅 주차 정보
 
-- **주차**: 11주차  
-- **주제**: 라즈베리파이 기반 OpenCV + USB 카메라 + 텔레그램 봇 연동 실습  
-- **내용**:
+- **주차** : 11주차  
+- **주제** : 라즈베리파이 기반 OpenCV + USB 카메라 + 텔레그램 봇 연동 실습  
+- **내용** :
   - 라즈베리파이 환경에서 OpenCV 설치 및 카메라 테스트
   - Python으로 USB 카메라 영상 처리 실습
   - Telegram API를 활용한 이미지 전송 자동화 봇 제작
@@ -59,7 +59,7 @@
 
 1. 텔레그램 앱에서 **botfather** 검색
 2. `/start`, `/newbot` 명령어 입력
-3. **봇 이름** 설정 (`예: myiot_bot`)
+3. **봇 이름** 설정 (`예 : myiot_bot`)
 4. 생성 후 **토큰(Token)** 확인
 
 #### 🔹 Python 텔레그램 API 설치
@@ -74,7 +74,7 @@ pip install python-telegram-bot --upgrade
 git clone https://github.com/python-telegram-bot/python-telegram-bot --recursive
 ```
 
-- `TimerBot.py` 수정:
+- `TimerBot.py` 수정
   - 이미지 전송, 타이머 실행 등 `context.job_queue.run_once()` 또는 `run_repeating()` 활용
 
 ---
